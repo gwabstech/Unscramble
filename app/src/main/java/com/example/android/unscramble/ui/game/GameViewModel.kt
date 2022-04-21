@@ -25,13 +25,13 @@ class GameViewModel : ViewModel(){
     private lateinit var currentWord: String
 
     init {
-        Log.d("GameFragment", "GameViewModel created!")
+        Log.d("com.example.android.unscramble.ui.game.GameFragment", "GameViewModel created!")
         getNextWord()
     }
 
     override fun onCleared() {
         super.onCleared()
-        Log.d("GameFragment", "GameViewModel destroyed!")
+        Log.d("com.example.android.unscramble.ui.game.GameFragment", "GameViewModel destroyed!")
     }
 
     /*

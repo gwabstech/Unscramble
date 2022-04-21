@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
                 setReorderingAllowed(true)
                 // Replace whatever is in the fragment_container view with this fragment
                // replace<R.id.game_fragment>(R.id.fragment_container)
-                add(R.id.game_fragment,GameFragment())
+                add(R.id.game_fragment,com.example.android.unscramble.ui.game.GameFragment())
             }
 
  */
