@@ -21,7 +21,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 import androidx.fragment.app.commit
-import com.example.android.unscramble.ui.game.GameFragment
+
 
 /**
  * Creates an Activity that hosts the Game fragment in the app
